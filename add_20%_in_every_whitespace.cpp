@@ -6,21 +6,24 @@
  |           eg:   input:  "Mr John Smith    " length = 13
  |                output:  "Mr20%John20%Smith"
  */
-
-
-
 /*********************** LIBRARIES  ***********************/
-
 #include <iostream>
 #include <string>
 #include <string.h>
 #include <stdio.h>
-
-using namespace std;
-
-/*********************** LIBRARIES  ***********************/
+using namespace std
+/*********************** CONSTANTS  ***********************/
 const int WORD_LENGTH = 1000;
 
+/*
+ |        Name: fillWhiteSpaces(...);
+ |  Parameters: original sentence entered by the user (char array)
+ |     Purpose: To replace to copy 20% in each white space. To do so
+ |              it copies it, but it moves the remaining characters
+ |              to the right position, this way it they don't get overwritten
+ |              by the Null terminator or 0.
+ |      Return: Nothing, this is a void function
+ */
 
 void fillWhiteSpaces(char original []){
     char tag [] = "20%";   // string literal

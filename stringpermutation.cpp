@@ -1,9 +1,13 @@
+
+/*********************** LIBRARIES  ***********************/
+
 #include <iostream>
 #include <string>
 #include <string.h>
 
 using namespace std;
 
+/*********************** LIBRARIES  ***********************/
 const int WORD_LENGTH = 100;
 
 
@@ -26,6 +30,7 @@ bool isPermutation (char original [], char permutation []){
     return false;
 }
 
+// NOTE: I'm using char arrays instead of strings.
 
 int main()
 {
@@ -34,7 +39,7 @@ int main()
     char permutation[WORD_LENGTH];
     cout << "Enter original word!: ";
     cin.get(original,WORD_LENGTH);
-    cin.ignore(WORD_LENGTH, '\n');
+    cin.ignore(WORD_LENGTH, '\n'); // it cleans the input buffer. 
     cout<<endl<< "Enter the permutation word: ";
     cin.get(permutation,WORD_LENGTH);
     cin.ignore(WORD_LENGTH, '\n');

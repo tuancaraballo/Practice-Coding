@@ -11,9 +11,6 @@ using namespace std;
 const int WORD_LENGTH = 100;
 
 
-
-
-
 bool isPermutation (char original [], char permutation []){
     int len1 = strlen(original);
     int len2 = strlen(permutation);

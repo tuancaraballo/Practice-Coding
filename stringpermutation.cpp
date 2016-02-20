@@ -1,4 +1,13 @@
 
+/*********************** QUESTION *************************/
+/*
+ | Question: Giventwo strings, write a function to decide if one is a 
+ |           a permutation of the other. eg ABC and CBA should return true
+ |           ABC and CDA should return false.
+ *?
+
+
+
 /*********************** LIBRARIES  ***********************/
 
 #include <iostream>

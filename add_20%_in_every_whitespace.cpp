@@ -11,7 +11,7 @@
 #include <string>
 #include <string.h>
 #include <stdio.h>
-using namespace std
+using namespace std;
 /*********************** CONSTANTS  ***********************/
 const int WORD_LENGTH = 1000;
 

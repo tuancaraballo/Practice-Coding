@@ -9,7 +9,7 @@ using namespace std;
 
 
 
-void rotate(int matrix [4][4] , int N){
+void rotateRight(int matrix [4][4] , int N){
     for (int layer = 0; layer < N/2; layer++) { // this is the number of layers
         int first = layer; // first element;
         int last = N-1-layer; // how far to go.
@@ -47,7 +47,7 @@ int main() {
         { 13, 14, 15, 16 }
     };
     printMatrix(matrix,4);
-    rotate(matrix,4);
+    rotateRight(matrix,4);
     printMatrix(matrix,4);
     
     

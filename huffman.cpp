@@ -64,7 +64,7 @@ string decode_huff(node * root,string s)
                 }
                 if (!copy->left && !copy->right){ // if arrived to a leaf.
                     word += copy->data;
-                    copy = root; // update copy back to the root. 
+                    copy = root; // update copy back to the root.
                     break;
                 }
             }
